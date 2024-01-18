@@ -13,17 +13,42 @@ npm install --save react-modal-zinkat
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'react-modal-zinkat'
+import React, { useState } from 'react'
+import Modal from 'react-modal-zinkat'
 import 'react-modal-zinkat/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+const App = () => {
+  const [isModalOpen, setModalOpen] = React.useState(false);
+
+  const openModal = () => setModalOpen(true);
+  const closeModal = () => setModalOpen(false);
+
+    const handleEvent = () => {
+    // This function is called during an event
+    // It opens the modal to indicate information
+    openModal();
+  };
+
+  return (
+    <div>
+      <button onClick={handleEvent}>Open</button>
+      <Modal isOpen={isModalOpen} onClose={closeModal} contentBtn="Close">
+        {/* Modal content goes here */}
+        Hello, this is my modal!
+      </Modal>
+    </div>
+  );
+};
+
+export default App;
 ```
+## Props
+
+- `isOpen` (boolean): Controls whether the modal is open or closed.
+- `onClose` (function): Callback function triggered when the modal is requested to be closed.
+- `children` (node): Content of the modal.
+- `contentBtn` (node): Button for closing the modal .
+
 
 ## License
 
