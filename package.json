@@ -1,6 +1,6 @@
 {
   "name": "react-modal-zinkat",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A customizable and reusable React modal component",
   "author": "Zineb KATIM",
   "license": "MIT",
@@ -66,5 +66,4 @@
     "UI",
     "component"
   ]
-
 }
