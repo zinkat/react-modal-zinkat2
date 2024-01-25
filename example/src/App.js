@@ -1,6 +1,5 @@
 import React from 'react'
 import Modal from 'react-modal-zinkat'
-//import { ExampleComponent } from 'react-modal-zinkat'
 import 'react-modal-zinkat/dist/index.css'
 import { useState } from 'react'
 
