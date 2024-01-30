@@ -49,7 +49,30 @@ export default App;
 - `children` (node): Content of the modal.
 - `contentBtn` (node): Button for closing the modal .
 
+## Tests
+
+This component is accompanied by an automated test suite to ensure its proper functionality. You can review and run these tests by following the instructions below.
+
+### Running the Tests
+
+1. Clone the repository to your local machine.
+2. Install dependencies using the command `npm install`.
+3. Run the command `npm test` to execute the test suite.
+
+Make sure all tests pass successfully before integrating this component into your project.
+
+This lets users know that the component is tested and provides them with instructions on how to run the tests if they wish. Be sure to keep your tests up to date as you make changes to the component.
+
+## Configuration
+
+You can obtain the necessary configuration files directly from the GitHub repository:
+
+- [jest.config.js](https://github.com/zinkat/react-modal-zinkat2/blob/master/jest.config.js)
+- [.babelrc](https://github.com/zinkat/react-modal-zinkat2/blob/master/.babelrc)
+- [cssTransform.js](https://github.com/zinkat/react-modal-zinkat2/blob/master/cssTransform.js)
+- [setupTests.js](https://github.com/zinkat/react-modal-zinkat2/blob/master/setupTests.js)
+
 
 ## License
 
-MIT © [Zineb KATIM](https://github.com/Zineb KATIM)
+MIT © [Zineb KATIM](https://github.com/zinkat)
