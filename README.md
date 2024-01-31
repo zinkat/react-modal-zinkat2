@@ -59,7 +59,7 @@ This component is accompanied by an automated test suite to ensure its proper fu
 2. Install dependencies using the command `npm install`.
 3. Run the command `npm test` to execute the test suite.
 
-![unit-test](image.png)
+![unit-test](unit-test.png)
 
 ## Configuration test
 
