@@ -59,11 +59,9 @@ This component is accompanied by an automated test suite to ensure its proper fu
 2. Install dependencies using the command `npm install`.
 3. Run the command `npm test` to execute the test suite.
 
-Make sure all tests pass successfully before integrating this component into your project.
+![unit test](image.png)
 
-This lets users know that the component is tested and provides them with instructions on how to run the tests if they wish. Be sure to keep your tests up to date as you make changes to the component.
-
-## Configuration
+## Configuration test
 
 You can obtain the necessary configuration files directly from the GitHub repository:
 
@@ -75,4 +73,4 @@ You can obtain the necessary configuration files directly from the GitHub reposi
 
 ## License
 
-MIT © [Zineb KATIM](https://github.com/zinkat)
+MIT © [Zineb](https://github.com/zinkat/react-modal-zinkat2)
